@@ -1,14 +1,114 @@
-body {
-    background-color: #fff7e8;
+body, html {
+	width: 1024px;
+	height: 768px;
+	margin: 0;
+	background-color: #fff7e8;
 }
 
 h1 {
-    color: #16d3ff;
-    text-align: center;
-	text-shadow: 2px 2px #ffe896;
+    color: #60afff;
+	margin-left: 30px;
 	font-family: Courier;
 }
 
 img {
-	height: 150;
+	height: 300px;
+	position:absolute;
+	margin-left: 20px;
+	border-radius: 20px;
 }
+
+
+.container {
+  width: 1024px;
+  height: 768px;
+}
+
+.topnav a.active{
+	background-color: #c1e2ff;
+    color: black;
+}
+
+.topnav {
+	margin-left: 30px;
+    overflow: hidden;
+	width: 100%;
+}
+
+.topnav ul{
+	float: left;
+	padding: 0;
+	list-style: none;	
+} 
+
+.topnav li{
+	outline-color:black;
+	display: inline;
+	float: left;
+	line-height: 25x;
+	height: 25px;
+	border-bottom: 1px solid #888;
+}
+	
+.topnav a {
+    background-color: #4da6ff;
+	display:block;
+	float: left;
+	color: #ffffff;
+	padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+	transition: .5s background-color;
+}
+
+.topnav a:hover {
+    background-color: #c1e2ff;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #c1e2ff;
+	outline-color:
+    color: white;
+	cursor: default;
+}
+
+.leftpane {
+    width: 430px;
+    height: 768px;
+    float: left;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+.rightpane {
+    width: 400px;
+    height: 768px;
+    float: left;
+    border-collapse: collapse;
+}
+
+table{
+	text-align: middle;
+	position:absolute;
+	width: 800px;
+	height: 200px;
+	border-collapse: collapse;
+}
+
+th, td{
+	text-align: left;
+	padding: 5px;
+	font-size: 17px;
+}
+
+tr:nth-child(even){
+	background-color: #e0fcff;
+	}
+
+tr:nth-child(odd){
+	background-color: #d1f8ff;
+	}
+
+
+
