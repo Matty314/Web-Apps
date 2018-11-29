@@ -1,6 +1,8 @@
 body, html {
-	width: 1024px;
+	width: 1500px;
 	height: 768px;
+	font-size: 10px;
+	font-family: Courier;
 	margin: 0;
 	background-color: #fff7e8;
 }
@@ -20,7 +22,7 @@ img {
 
 
 .container {
-  width: 1024px;
+  width: 1500px;
   height: 768px;
 }
 
@@ -32,7 +34,7 @@ img {
 .topnav {
 	margin-left: 30px;
     overflow: hidden;
-	width: 100%;
+	width: 1500px;
 }
 
 .topnav ul{
@@ -47,7 +49,7 @@ img {
 	float: left;
 	line-height: 25x;
 	height: 25px;
-	border-bottom: 1px solid #888;
+	border-bottom: 2px solid #888;
 }
 	
 .topnav a {
@@ -57,7 +59,7 @@ img {
 	color: #ffffff;
 	padding: 8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 	transition: .5s background-color;
 }
 
@@ -78,23 +80,45 @@ img {
     height: 768px;
     float: left;
     margin-left: 10px;
+	margin-top: 20px;
     border-collapse: collapse;
 }
 
 .rightpane {
-    width: 400px;
+	margin-top:20px;
+    width: 800px;
     height: 768px;
     float: left;
-    border-collapse: collapse;
+}
+
+.rightpane2 {
+	font-family: Courier;
+	font-size: 16px;
+}
+
+.rightpane2 p{
+    width: 800px;
+    height: 768px;
+    float: left;
 }
 
 table{
 	text-align: middle;
 	position:absolute;
-	width: 800px;
+	width: 700px;
 	height: 200px;
+	float: left;
 	border-collapse: collapse;
 }
+
+.rightpane p{
+	font-family: Courier;
+	font-size: 16px;
+	margin-top: 290px;
+	white-space:nowrap;
+}
+
+
 
 th, td{
 	text-align: left;
